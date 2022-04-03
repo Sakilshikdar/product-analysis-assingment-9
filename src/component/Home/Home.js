@@ -1,7 +1,17 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/Reviews';
+import HomeCart from '../HomeCart/HomeCart';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
+    const navigate = useNavigate()
+
+    const handleReviewPage = () =>{
+        const path = '/reviews'
+        navigate(path)
+    }
     return (
         <div >
            <div className='home'>
@@ -18,7 +28,14 @@ const Home = () => {
            </div>
             <div className='home-review'>
                 <h1 className='review-part'>Customer Reviews(3)</h1>
-                <button className='review-btn'>see all reviews</button>
+                {
+                    reviews.map(review => <HomeCart
+                    key = {review.id}
+                    review= {review}
+                    >
+                    </HomeCart>)
+                }
+                <button onClick={handleReviewPage} className='review-btn'>see all reviews</button>
             </div>
         </div>
     );

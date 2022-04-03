@@ -1,0 +1,17 @@
+.card-title{
+    color: aqua;
+}
+
+.review-cart {
+    border: 2px solid aliceblue;
+    margin-top: 10px;
+    background-color: rgb(246, 246, 246);
+    padding: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+}
+
+.review-cart p {
+    color: red;
+}
