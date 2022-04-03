@@ -29,7 +29,7 @@ const Home = () => {
             <div className='home-review'>
                 <h1 className='review-part'>Customer Reviews(3)</h1>
                 {
-                    reviews.map(review => <HomeCart
+                    reviews.slice(0, 3).map(review => <HomeCart
                     key = {review.id}
                     review= {review}
                     >

@@ -1,0 +1,19 @@
+.chart-parent{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: rgb(253, 249, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.chart{
+    margin: 50px;
+    
+}
+
+.sell{
+    width: auto;
+    margin-top: 0;
+}
