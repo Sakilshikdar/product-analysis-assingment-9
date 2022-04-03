@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Albert",
+      "rating": 4.5,
+      "review": "This a amazing product"
+    },
+    {
+      "id": 2,
+      "name": "Newton",
+      "rating": 4.3,
+      "review": "This a good quality"
+    },
+    {
+      "id": 3,
+      "name": "Hoking",
+      "rating": 4.6,
+      "review": "Very cheap and good"
+    },
+    {
+      "id": 4,
+      "name": "Jafor",
+      "rating": 4.1,
+      "review": "Best product for ever"
+    },
+    {
+      "id": 5,
+      "name": "Tom",
+      "rating": 4.8,
+      "review": "That's is very comfortable and cheap price"
+    },
+    {
+      "id": 6,
+      "name": "Comola",
+      "rating": 3.7,
+      "review": "Not best but roughly"
+    }
+  ]
