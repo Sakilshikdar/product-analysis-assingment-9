@@ -1,0 +1,10 @@
+.cart-title{
+    color: aqua;
+}
+
+.reviews-cart{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap:50px;
+    margin:20px;
+}

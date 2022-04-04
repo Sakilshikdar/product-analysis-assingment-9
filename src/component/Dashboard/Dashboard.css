@@ -8,12 +8,6 @@
     justify-content: space-evenly;
 }
 
-.chart{
-    margin: 50px;
-    
-}
-
-.sell{
-    width: auto;
-    margin-top: 0;
+.sell-text{
+    margin-bottom: 70px;
 }

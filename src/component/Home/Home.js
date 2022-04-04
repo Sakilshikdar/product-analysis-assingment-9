@@ -28,6 +28,7 @@ const Home = () => {
            </div>
             <div className='home-review'>
                 <h1 className='review-part'>Customer Reviews(3)</h1>
+                <div className='cart-component'>
                 {
                     reviews.slice(0, 3).map(review => <HomeCart
                     key = {review.id}
@@ -35,6 +36,7 @@ const Home = () => {
                     >
                     </HomeCart>)
                 }
+                </div>
                 <button onClick={handleReviewPage} className='review-btn'>see all reviews</button>
             </div>
         </div>

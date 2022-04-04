@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; 
+import './Home Cart.css'
 
 const HomeCart = (props) => {
         const {name, rating, review} = props.review;

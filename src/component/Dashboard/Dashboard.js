@@ -44,7 +44,7 @@ const Dashboard = () => {
     return (
         <div className='chart-parent'>
             <div>
-                <h2>MONTH WISH SELL</h2>
+                <h2 className='sell-text'>MONTH WISH SELL</h2>
                 <div className='chart'>
                     <LineChart width={400} height={200} data={data}>
                         <Line dataKey={'sell'}></Line>
@@ -52,8 +52,8 @@ const Dashboard = () => {
                         <YAxis></YAxis>
                         <Tooltip />
                     </LineChart>
-                </div>
                 <small className='sell'>sell</small>
+                </div>
             </div>
             <div>
                 <h2>Investment VS Revenue</h2>

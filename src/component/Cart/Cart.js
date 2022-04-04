@@ -3,6 +3,7 @@ import './Cart.css'
 
 const Cart = (props) => {
     const {name, rating, review} = props.review;
+    
     return (
         <div className='review-cart'>
             <h2>Name: {name}</h2>

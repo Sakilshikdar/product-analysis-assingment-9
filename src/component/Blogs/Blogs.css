@@ -1,0 +1,13 @@
+.blogs{
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid sandybrown;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(247, 243, 228);
+}
+
+.blogs-tag{
+    color: rgb(166, 105, 224);
+}
