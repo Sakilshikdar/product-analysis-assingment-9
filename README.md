@@ -11,7 +11,7 @@ About Webside:
 
 3.First component have product details.
 
-4.second component have customer feedback after using there products.
+4.second component have customer feedback after using their products.
 
 5.Third and fourth component have Charts and Blogs
 
